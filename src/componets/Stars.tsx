@@ -7,7 +7,7 @@ const Stars = ({ count }) => {
 	}
 
 	return (
-		<ul className="card-body-stars u-clearfix">
+		<ul className="card-body-stars">
          {[...Array(count)].map((_, idx) => <li key={idx}><Star /></li>)}
       </ul>
 	)
